@@ -1,0 +1,29 @@
+.comment_container {
+  padding: 20px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* margin: 40px auto; */
+  /* max-width: 1000px; */
+  /* width: 100%; */
+}
+.user_info {
+  font-size: 14px;
+}
+.user_icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 50px;
+}
+.username {
+  color: rgb(53, 115, 229);
+}
+.btn_container span {
+  font-size: 12px;
+  cursor: pointer;
+}
+.btn_container span:hover,
+.btn_container span.active {
+  text-decoration: underline;
+  color: darkblue;
+  font-weight: 500;
+}
